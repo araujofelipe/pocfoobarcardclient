@@ -1,0 +1,37 @@
+<html>
+	<head>
+		<title>POC FooBar Card Client</title>
+	</head>
+	<body>
+		<form action="/sendxml" method="post">
+			<table border="0" cellspacing="5" cellpadding="5">
+				<tr>
+					<td>
+						<label for="valor">Valor :</label>
+					</td>
+					<td>
+						<input type="text" name="valor" value="" id="valor">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="numero_cartao">Numero do Cartão:</label>
+					</td>
+					<td>
+						<input type="text" name="numero_cartao" value="" id="numero_cartao">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="data_expiracao">Data expiração:</label>
+					</td>
+					<td>
+						<input type="text" name="data_expiracao" value="" id="data_expiracao">(mm/aa)
+					</td>
+				</tr>
+			</table>			
+			<p><input type="submit" value="Continue &rarr;"></p>
+		</form>
+		
+	</body>
+</html>
